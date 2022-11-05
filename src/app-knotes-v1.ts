@@ -3,7 +3,7 @@ import { AppKnotesV1 } from './AppKnotesV1.js';
 customElements.define('app-knotes-v1', AppKnotesV1);
 
 { // code for switch dark mode
-    const btn = document.querySelector(".btn-toggle");
+    const btn = document.querySelector("#darkLightModeButton");
     const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
     if (btn) {

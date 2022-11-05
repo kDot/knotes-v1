@@ -15,6 +15,7 @@
     "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds\""
   },
   "dependencies": {
+    "@material/button": "^14.0.0",
     "lit": "^2.0.2"
   },
   "devDependencies": {
